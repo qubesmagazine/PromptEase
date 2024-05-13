@@ -1,7 +1,11 @@
 "use client";
 
+
+
+// "use client" directive is not necessary
+
 import { useEffect, useState } from "react";
-import { useRouter, useSearchParams, SuspenseBoundary } from "next/navigation"; // Import SuspenseBoundary
+import { useRouter, useSearchParams } from "next/navigation";
 
 import Form from "@components/Form";
 
@@ -53,7 +57,7 @@ const UpdatePrompt = () => {
   };
 
   return (
-    <SuspenseBoundary fallback={<div>Loading...</div>}> 
+    <React.Suspense fallback={<div>Loading...</div>}>
       <Form
         type='Edit'
         post={post}
@@ -61,7 +65,7 @@ const UpdatePrompt = () => {
         submitting={submitting}
         handleSubmit={updatePrompt}
       />
-    </SuspenseBoundary>
+    </React.Suspense>
   );
 };
 
