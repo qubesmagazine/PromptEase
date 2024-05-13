@@ -10,6 +10,7 @@ import HomeCarousel from '@components/HomeCarosel'
 
 
 
+
 export const metadata = {
   title: "PromptEase",
 description: "Explore & Collaborate Ai Features",
@@ -18,6 +19,7 @@ description: "Explore & Collaborate Ai Features",
 const RootLayout = ({children})  => {
   return (
   <html lang='en'>
+    
 <body>
     <Provider>
     <div className='main'>

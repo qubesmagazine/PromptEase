@@ -3,6 +3,7 @@ import Feed from "@components/Feed";
 import ImageSection from "@components/ImageSection";
 import Footer from "@components/Footer";
 
+
 const Home = () => {
   return (
     <section className="w-full flex-center flex-col">
