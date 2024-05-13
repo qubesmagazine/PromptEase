@@ -3,7 +3,7 @@
 import { Suspense } from "react";
 import UpdatePrompts from "./layout";
 
-function UpdatePrompt() {
+function page() {
 
   return (
   <Suspense>
@@ -12,4 +12,4 @@ function UpdatePrompt() {
   )
 }
 
-export default UpdatePrompt
+export default page
