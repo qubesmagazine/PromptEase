@@ -65,8 +65,6 @@ const Nav = () => {
                   }}
                   className='black_btn'
                 >
-                  {/* Include Google icon before "Sign In" text */}
-                  <Image src='/assets/images/google.png' alt="Google Icon" className="w-5 h-5 mr-2" height={5} width={5} />
                   Sign In
                   </button>
               ))}
@@ -128,8 +126,6 @@ const Nav = () => {
                   }}
                   className='black_btn'
                 >
-                  {/* Include Google icon before "Sign In" text */}
-                  <Image src='/assets/images/google.png' alt="Google Icon" className="w-5 h-5 mr-2" height={5} width={5} />
                   Sign In
                 </button>
               ))}
